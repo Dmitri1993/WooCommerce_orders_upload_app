@@ -1,0 +1,13 @@
+This application represents an integration between Freshdesk and Woocommerce.
+Application represents the following information based on the customer's email, which resides in Woocommerce:
+
+-Contact details(Email,Phone);  
+-Current order details(Total value,Created Date,Status,Shipping Address); 
+-Last 5 (or less) orders if they exist (Total value,Created Date,Status);
+
+Note: Customer must have valid Woocommerce account. All displayed information is based on customer's email, if customer doesn't have valid Woocommerce account associated with same email represented in Freshdesk, notification with warning message will be displayed. 
+
+
+
+
+
